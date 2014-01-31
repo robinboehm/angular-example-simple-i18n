@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>i18n mini example</title>
+</head>
+<body ng-init="value=1000000000">
+
+<input type="number" ng-model="value"/>
+
+<h1>{{ value | currency }}</h1>
+<h1>{{ value | currency:'$' }}</h1>
+
+
+
+<script src="../bower_components/angular/angular.js"></script>
+<script src="scripts/locales/angular-locale_de-de.js"></script>
+
+</body>
+</html>

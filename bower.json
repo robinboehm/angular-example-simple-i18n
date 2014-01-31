@@ -1,0 +1,27 @@
+{
+  "name": "i18n-example",
+  "version": "0.0.1",
+  "authors": [
+    "Robin Böhm <robinboehm@googlemail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.2"
+  },
+  "devDependencies": {
+    "jQuery": "~2.1.0",
+    "angular-mocks": "~1.2.10"
+  },
+  "private": true
+}
